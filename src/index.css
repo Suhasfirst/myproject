@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+#maindiv {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* align-content: center; */
+  /* width: 300px; */
+}
+
+
+
+#username 
+{
+  border: 1px solid black;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#username img
+{
+  padding-left: 5px;
+}
+
+#username input 
+{
+  border: none;
+  margin-left: 10px;
+}
+
+
+
+#password
+{
+  border: 1px solid black;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#password img
+{
+  padding-left: 5px;
+
+}
+
+#password input 
+{
+  border: none;
+  margin-left: 10px;
+
+}
+
+
+#login button
+{
+  border: 1px solid black;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
